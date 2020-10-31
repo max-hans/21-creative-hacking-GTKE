@@ -1,4 +1,4 @@
-# creative-hacking-basics
+# gtke / creative-hacking
 
 ## beispiele
 
