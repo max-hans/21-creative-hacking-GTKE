@@ -1,52 +1,45 @@
 #include "Ticker.h"
 #include <Servo.h>
 
-Servo servo1;
+Servo servo;
 
-boolean button1Pin = 8;
-boolean button2Pin = 7;
+int targetAngle = 90;
+int currentAngle = 90;
 
-boolean button1Pressed = false;
-boolean button2Pressed = false;
+void readSensor();
+void fadeServo();
 
-int angle1 = 90;
-int fadeAmount = 5;
-
-void fadeServo1();
-
-Ticker timer1(fadeServo1, 50);
+Ticker sensorTimer(readSensor, 1000);
+Ticker servoTimer(fadeServo, 50);
 
 void setup() {
-  pinMode(button1Pin, INPUT);
-  pinMode(button2Pin, INPUT);
+  servo.attach(9);
 
-  servo1.attach(9);
-  timer1.start();
+  sensorTimer.start();
+  servoTimer.start();
 }
 
 void loop() {
-  
-  timer1.update();
+  sensorTimer.update();
+  servoTimer.update();
 }
 
-void fadeServo1() {
+void readSensor() {
 
-  button1Pressed = digitalRead(button1Pin);
-  button2Pressed = digitalRead(button2Pin);
-
-  if (button1Pressed) {
-    angle1 = angle1 + fadeAmount;
-    if (angle1 > 180) {
-      angle1 = 180;
-    }
+  if(analogRead(A0) > 500){
+    targetAngle = 200;
+  } else {
+    targetAngle = 0;
   }
+}
 
-  if (button2Pressed) {
-    angle1 = angle1 -  fadeAmount;
-    if (angle1 < 0) {
-      angle1 = 0;
-    }
+void fadeServo(){
+  if(targetAngle > currentAngle){
+    currentAngle = currentAngle + 1;
+  } else {
+    if(targetAngle < currentAngle){
+      currentAngle = currentAngle - 1;
+    } 
   }
-  servo1.write(angle1);
-
+  servo.write(currentAngle);
 }
