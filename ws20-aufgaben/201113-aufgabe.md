@@ -1,21 +1,10 @@
-# aufgabe 31.11.14
-
-## fragen
-
-### konzept
-
-- wie soll erkannt werden, dass gelüftet werden muss?
-- wie wird der nutzer darauf hingewiesen?
-- wie wird erkannt, dass nutzer gelüftet hat?
-
-### technik
-
-- was für komponenten sind noch notwendig?
-- wie wird die logik umgesetzt? → platzhalter
+# 13.11.20
 
 ## aufgabe
 
 - skizze von technischem aufbau
+  - logikdiagramm
+  - liste von komponenten
 - skizze von konzept
   - **wie** wird das problem erkannt? z.b.:
     - zeit
@@ -24,4 +13,10 @@
   - **was** wird dagegen getan? z.b.:
     - notifikation (z.b. ton, licht,...)
     - aktion (z.b. mechanik)
-- logikdiagramm
+  - **wie** sieht das dann aus? (gehäuse, aufbau, interaktion...)
+
+## beispiele
+
+### logikdiagramm
+
+ein beispiel für ein logikdiagramm und den entsprechenden code findet ihr [hier](../beispielDateien/servoSensor)
