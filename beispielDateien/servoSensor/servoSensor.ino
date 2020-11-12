@@ -3,8 +3,8 @@
 
 Servo servo1;
 
-int button1Pin = 8;
-int button2Pin = 7;
+boolean button1Pin = 8;
+boolean button2Pin = 7;
 
 boolean button1Pressed = false;
 boolean button2Pressed = false;
