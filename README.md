@@ -39,6 +39,31 @@ a > b → größer
 a < b → kleiner
 ```
 
+### rechnen 1
+
+```
+int a = 10 + 20;
+int b = 20 - 10;
+int c = a + b;
+
+int a = 10 * 20;
+int b = 20 / 10;
+int c = a * b;
+
+```
+
+### rechnen 2
+
+umrechnen von wertebereichen
+
+```
+map ( value , minRange1, maxRange1, minRange2, maxRange 2)
+
+int a = analogRead(A0); // analogRead hat einen Wertebereich von 0 - 1023
+int b = map(a, 0,1023, 0,100);
+
+```
+
 ### kommunikation
 
 ```
