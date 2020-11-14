@@ -4,6 +4,10 @@
 
 -> [beispieldateien](/beispielDateien)
 
+## hilfreiche links
+
+-> [useful links](/useful-links.md)
+
 ## cheat-sheet
 
 ### setup
