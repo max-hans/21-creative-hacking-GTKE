@@ -61,3 +61,12 @@ https://howtomechatronics.com/tutorials/arduino/diy-arduino-robot-arm-with-smart
 
 https://www.amazon.de/Universal-Ladeger%C3%A4t-Laufwerke-Festplatten-Ladestationen/dp/B01I1LRCXW/
 https://www.amazon.de/DeLock-Adapter-Terminalblock-5mm-Buchse/dp/B00E8CURKO/
+
+## vincent, laurenz, niels
+
+ein paar repos, an denen ihr euch orientieren könnt:
+
+https://github.com/intuitymedialab/kopernikus
+https://github.com/relativty/Relativty
+https://github.com/biomurph/Mouse
+https://github.com/pachterlab/poseidon
