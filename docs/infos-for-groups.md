@@ -14,6 +14,7 @@ https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299
 
 #### Produkt
 
+https://www.exp-tech.de/module/audio/6045/adafruit-audio-fx-sound-board-wav/ogg-trigger-with-2mb-flash
 https://www.adafruit.com/product/2133
 
 #### Library
