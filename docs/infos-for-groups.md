@@ -56,3 +56,8 @@ https://howtomechatronics.com/tutorials/arduino/diy-arduino-robot-arm-with-smart
 ### code
 
 [beispiel](./../beispielDateien/servoSensor)
+
+### netzteil
+
+https://www.amazon.de/Universal-Ladeger%C3%A4t-Laufwerke-Festplatten-Ladestationen/dp/B01I1LRCXW/
+https://www.amazon.de/DeLock-Adapter-Terminalblock-5mm-Buchse/dp/B00E8CURKO/
