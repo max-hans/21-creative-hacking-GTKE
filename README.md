@@ -6,7 +6,7 @@
 
 ## hilfreiche links
 
--> [useful links](/useful-links.md)
+-> [useful links](/docs/useful-links.md)
 
 ## cheat-sheet
 
